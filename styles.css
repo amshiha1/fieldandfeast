@@ -57,6 +57,7 @@ table {
 
 :root {
     --font-playfair:'Playfair Display';
+    --box-shadow: rgba(138,138,138,0.75);
 
     --midnight-blue: #1F2A44;
     --olive-green: #76885B;
@@ -87,7 +88,7 @@ header h1{
 header p{
     padding-bottom: 20px;
     font-style: italic;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 nav{
@@ -107,7 +108,102 @@ nav a{
     color: var(--midnight-blue);
 }
 
+nav li{
+    font-size: 1.5rem;
+}
+
 main{
     padding: 0px 20px;
     padding-top: 50px;
 }
+
+h2{
+    color: var(--midnight-blue);
+    margin-bottom: 5px;
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+#offerings section{
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    box-shadow: 0px 3px 6px 2px var(--box-shadow);
+    margin: 15px 0px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#offerings li{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+#gallery .gall > figure{
+    font-style: italic;
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+    box-shadow: 0px 3px 6px 2px var(--box-shadow);
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background-color: var(--linen);
+}
+
+.gall figure img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.gall figure figcaption{
+    padding-top: 6px;
+}
+
+
+.gall > button{
+    background-color: var(--olive-green);
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 15px 0px;
+    border-radius: 5px;
+    color: var(--soft-white);
+}
+
+footer{
+    background-color: var(--midnight-blue);
+    color: var(--linen);
+    margin-top: 40px;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+footer address{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--champagne-gold);
+    font-weight: bold;
+}
+
+/* MEDIA QUERY (medium) */
+
+
+/* MEDIA QUERY (large) */
+
+
+
+/* MEDIA QUERY (xl) */
+
+
+
